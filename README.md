@@ -10,6 +10,14 @@ By the end of our tutorial, our web app will provide a very basic way toCreate, 
   ![](https://github.com/IBM-Bluemix/CRUD-PHP-Codeigniter-Bluemix/blob/master/assets/gitImages/ApplicationScreen.png)
 
   
+####Quick Deployment:
+You can simply press the deploy to Bluemix button and it will deploy the complete application to your Bluemix account without doing any of the steps below.
+
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://hub.jazz.net/git/twanawebtech/CRUD-PHP-Codeigniter-Bluemix)
+
+Or if you want to learn how the fully process is done and how I went about doing this then follow the steps below:
+
+
 ####Steps involves:
 
 * Using the cloud foundry command line, login to Bluemix and navigate to the organization and space you want to push your app too  
