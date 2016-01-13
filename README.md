@@ -57,7 +57,7 @@ Step 6
 cf push CRUD-PHP-Codeigniter-Bluemix -b https://github.com/cloudfoundry/php-buildpack -s cflinuxfs2  
 ``` 
 
-Step 6
+Step 7
 * Now that our application is pushed to bluemix, we need to one final step for our application to work, we need to create a database in which our PHP application is looking for. To access our MySql database, first we need to get the database details, to do that run this command to get your database details.  
 ```
 cf env CRUD-PHP-Codeigniter-Bluemix
@@ -86,7 +86,6 @@ CREATE TABLE `bloginfo` (
 We should now be in action, access your application staging domain, in my case been: 
 [crud-php-codeigniter-bluemix.mybluemix.net](http://crud-php-codeigniter-bluemix.mybluemix.net)
 
-####Done
 
 
 
