@@ -50,24 +50,24 @@ Step 5
 ```
 cd desktop/CRUD-PHP-Codeigniter-Bluemix  
 ```
-
+  
 Step 6
 * Push the applications to Bluemix, to do that use below command  
 ```
 cf push CRUD-PHP-Codeigniter-Bluemix -b https://github.com/cloudfoundry/php-buildpack -s cflinuxfs2  
-```  
+``` 
 
-Done! we should now be in action, access your application staging domain, in my case been: 
-[crud-php-codeigniter-bluemix.mybluemix.net](http://crud-php-codeigniter-bluemix.mybluemix.net)  
+####Done!  
+We should now be in action, access your application staging domain, in my case been: 
+[crud-php-codeigniter-bluemix.mybluemix.net](http://crud-php-codeigniter-bluemix.mybluemix.net)    
+
 
 ####Access and View your database
 To get your mySql database details run below command to get your details if you want to check the database.  
 ```
 cf env CRUD-PHP-Codeigniter-Bluemix
 ```
-
 Or you can get the database details via Bluemix dashboard, login to your Bluemix and open your applications which we created and click on the "Show Credentials" button under the MySql Database service.  
-  ![](https://github.com/IBM-Bluemix/CRUD-PHP-Codeigniter-Bluemix/blob/master/assets/gitImages/ApplicationScreen2.png)
 
 
 ####Troubleshooting
