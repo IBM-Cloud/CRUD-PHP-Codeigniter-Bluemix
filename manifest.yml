@@ -1,6 +1,6 @@
 ---
 declared-services:
-  codeignitor-mysql:
+  myDatabaseCRUD:
     label: cleardb
     plan: spark
 applications:
