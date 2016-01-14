@@ -45,30 +45,6 @@
 | the active record class
 */
 
-// Look for bound MySQL Services, pick the first one
-/*$services = json_decode($_ENV['VCAP_SERVICES'], true);
-$service = $services['cleardb'][0];
-
-$active_group = 'default';
-$active_record = TRUE;
-
-$db['default']['username'] = $service['credentials']['username'];
-$db['default']['password'] = $service['credentials']['password'];
-$db['default']['hostname'] = $service['credentials']['hostname'];
-$db['default']['port'] = $service['credentials']['port'];
-$db['default']['database'] = $service['credentials']['database'];
-$db['default']['dbdriver'] = 'mysqli';
-$db['default']['dbprefix'] = 'CI_';
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
-$db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = '';
-$db['default']['char_set'] = 'utf8';
-$db['default']['dbcollat'] = 'utf8_general_ci';
-$db['default']['swap_pre'] = '';
-$db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;
-   */
 
 // Look for bound MySQL Services, pick the first one
 $services = json_decode($_ENV['VCAP_SERVICES'], true);
@@ -93,7 +69,34 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
+/*
 
+
+$active_group = 'default';
+$query_builder = TRUE;
+
+$db['default'] = array(
+ 'dsn'	=> '',
+ 'hostname' => 'root',
+ 'username' => 'root',
+ 'password' => 'root',
+ 'database' => 'root',
+ 'dbdriver' => 'mysqli',
+ 'dbprefix' => '',
+ 'pconnect' => FALSE,
+ 'db_debug' => (ENVIRONMENT !== 'production'),
+ 'cache_on' => FALSE,
+ 'cachedir' => '',
+ 'char_set' => 'utf8',
+ 'dbcollat' => 'utf8_general_ci',
+ 'swap_pre' => '',
+ 'encrypt' => FALSE,
+ 'compress' => FALSE,
+ 'stricton' => FALSE,
+ 'failover' => array(),
+ 'save_queries' => TRUE
+);
+   */
 
 
 /* End of file database.php */

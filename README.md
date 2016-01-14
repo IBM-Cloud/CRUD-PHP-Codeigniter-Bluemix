@@ -99,7 +99,11 @@ The primary source of debugging information for your Bluemix app is the logs. To
 For more detailed information on troubleshooting your application, see the [Troubleshooting section](https://www.ng.bluemix.net/docs/troubleshoot/tr.html) in the Bluemix documentation.
 
 
-If you have any questions or need support then contact me or leave a comment below.   
+
+#### Useful links
+[IBM Bluemix](https://bluemix.net/)
+[IBM  Bluemix Documentation](https://www.ng.bluemix.net/docs/)
+[IBM Bluemix Developers Community](http://developer.ibm.com/bluemix)
 
 
 ####Whats next?   

@@ -33,7 +33,22 @@ class Blog extends CI_Controller {
         $this->load->model('blog_model');
         $this->load->library("pagination");
 
-        $config = array();
+
+		//load migration library to create database table and fields.
+		$this->load->library('migration');
+		$data['type'] = 'current';
+
+		if ( ! $this->migration->current())
+		{
+			show_error($this->migration->error_string());
+		}else{
+			//echo " Data created - Yay! ";
+		}
+
+
+
+
+		$config = array();
         $config["base_url"] = base_url() . "blog/index/";
         $config["total_rows"] = $this->blog_model->record_count();
         $config["per_page"] = 3;
