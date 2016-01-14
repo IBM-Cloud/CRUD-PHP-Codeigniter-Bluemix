@@ -82,9 +82,9 @@ For more detailed information on troubleshooting your application, see the [Trou
 
 
 #### Useful links
-[IBM Bluemix](https://bluemix.net/)
-[IBM  Bluemix Documentation](https://www.ng.bluemix.net/docs/)
-[IBM Bluemix Developers Community](http://developer.ibm.com/bluemix)
+[IBM Bluemix](https://bluemix.net/)  
+[IBM  Bluemix Documentation](https://www.ng.bluemix.net/docs/)  
+[IBM Bluemix Developers Community](http://developer.ibm.com/bluemix)  
 
 
 ####Whats next?   
